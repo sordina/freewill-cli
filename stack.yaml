@@ -1,0 +1,22 @@
+resolver: lts-8.20
+
+packages:
+  - '.'
+  - location:
+      git: https://github.com/sordina/freewill.it.git
+      commit: e3e18e5
+    extra-dep: true
+
+extra-deps:
+  - freewill-0.1.0.0
+  - generic-lens-0.2.0.0
+  - servant-auth-0.2.7.0
+  - servant-auth-server-0.3.0.0
+  - servant-auth-swagger-0.2.7.0
+  - servant-options-0.1.0.0
+  - wai-util-0.8
+  - http-accept-0.2
+
+flags: {}
+
+extra-package-dbs: []
